@@ -1,6 +1,0 @@
-package mx.com.ubam.guardianes.interfaces;
-
-public interface Guardian {
-	public void defender();
-	public void entrenar();
-}

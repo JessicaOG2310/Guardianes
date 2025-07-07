@@ -1,0 +1,23 @@
+package mx.com.ubam.guardianes.pruebas;
+
+import mx.com.ubam.guardianes.clases.*;
+import mx.com.ubam.guardianes.servicios.AgenciaSeguridad;
+
+public class ContratadorGuardian {
+
+	public static void main(String[] args) {
+		Perro pr = new Perro();
+		Persona ps = new Persona();
+		Robot rb = new Robot();
+		AgenciaSeguridad as = new AgenciaSeguridad();
+		
+		as.altaGuardia(pr);
+		as.altaGuardia(ps);
+		as.altaGuardia(rb);
+		as.mostrarCaracteristicasDefensa();
+		as.mostrarCaracteristicasEntrenamiento();
+		
+
+	}
+
+}
