@@ -1,0 +1,12 @@
+package mx.com.ubam.guardianes.clases;
+
+import mx.com.ubam.guardianes.interfaces.Guardian;
+
+public class Perro implements Guardian{
+	public void defender() {
+		System.out.println("A moridas");
+	}
+	public void entrenar() {
+		System.out.println("El perro esta entrenando");
+	}
+}
