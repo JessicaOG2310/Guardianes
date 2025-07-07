@@ -1,0 +1,25 @@
+package mx.com.ubam.guardianes.servicios;
+
+import java.util.ArrayList;
+
+import mx.com.ubam.guardianes.interfaces.Guardian;
+
+public class AgenciaSeguridad {
+	ArrayList<Guardian> listaGuardianes  = new ArrayList<Guardian>();
+	
+public void altaGuardia(Guardian gr) {
+	listaGuardianes.add(gr);
+}
+
+public void mostrarCaracteristicasDefensa() {
+	for(Guardian guardiancito:this.listaGuardianes) {
+		guardiancito.defender();
+	}
+}
+public void mostrarCaracteristicasEntrenamiento() {
+	for(Guardian guardiancito:this.listaGuardianes) {
+		guardiancito.entrenar();
+	}
+}
+	
+}
