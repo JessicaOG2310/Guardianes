@@ -1,0 +1,21 @@
+package mx.com.ubam.guardianes.clases;
+
+import mx.com.ubam.guardianes.interfaces.*;
+
+public class Robot implements Guardian, DispensadorDeRefrescos{
+	public void defender() {
+		System.out.println("Con tecnologia");
+	}
+	public void entrenar() {
+		System.out.println("Actualizaciones");
+	}
+	public void recibirMonedas() {
+		System.out.println("Recibiendo monedas");
+	}
+	public void despacharRefresco() {
+		System.out.println("Despachando Refresco");
+	}
+	public void darCambio() {
+		System.out.println("Dando cambio");
+	}
+}
