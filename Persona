@@ -1,0 +1,12 @@
+package mx.com.ubam.guardianes.clases;
+import mx.com.ubam.guardianes.interfaces.Guardian;
+
+public class Persona implements Guardian{
+	public void defender() {
+		System.out.println("A golpes");
+	}
+	public void entrenar() {
+		System.out.println("Persona en entrenamiento");
+	}
+
+}
